@@ -40,7 +40,7 @@ public class UserDaoService {
 		return null;
 	}
 	
-	public User deleteByIf(int id) {
+	public User deleteById(int id) {
 		Iterator<User> iterator=users.iterator();
 		
 		while(iterator.hasNext()) {
